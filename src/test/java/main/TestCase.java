@@ -10,6 +10,7 @@ public class TestCase {
 	@Test
 	public void testHello() {
 		sm = new SampleProject();
+	
 		
 		assertEquals("Hello World!",sm.printHello());
 	}
